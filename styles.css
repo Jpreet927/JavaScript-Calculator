@@ -4,7 +4,8 @@
 }
 
 body {
-  background: linear-gradient(0.25turn, #3f87a6, #c38eff, #f63c74);
+  /* background: linear-gradient(0.25turn, #3f87a6, #c38eff, #f63c74); */
+  background: rgb(235, 235, 235);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -24,6 +25,26 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repear(4, 1fr);
+}
+
+#modulus:hover {
+  background: linear-gradient(to right, rgb(199, 14, 29), rgb(247, 54, 54));
+}
+
+#divide:hover {
+  background: linear-gradient(to right, rgb(212, 129, 21), rgb(255, 187, 42));
+}
+
+#multiply:hover {
+  background: linear-gradient(to right, rgb(0, 192, 64), rgb(65, 221, 117));
+}
+
+#add:hover {
+  background: linear-gradient(to right, rgb(0, 99, 192), rgb(54, 132, 206));
+}
+
+#subtract:hover {
+  background: linear-gradient(to right, rgb(58, 0, 192), rgb(91, 25, 199));
 }
 
 .display {
